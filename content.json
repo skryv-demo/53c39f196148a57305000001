@@ -22,7 +22,7 @@
             "indien_andere,_specificeren": "Aziatisch"
         },
         "geboortedatum": "Tue Oct 12 1999 00:00:00 GMT+0200 (CEST)",
-        "datum_van_de_eerste_insulinetoediening": "Thu May 16 2013 00:00:00 GMT+0200 (CEST)",
+        "datum_van_de_eerste_insulinetoediening": "Wed Sep 12 2012 00:00:00 GMT+0200 (CEST)",
         "patient_niss": 99101220122,
         "naam": "Doe",
         "voornaam": "Johnny",
@@ -54,13 +54,34 @@
                     "insulinedosis_iedag": 100
                 },
                 {
-                    "insulinedosis_iedag": 100
+                    "insulinedosis_iedag": 110
+                },
+                {
+                    "insulinedosis_iedag": 120
                 }
             ],
-            "lengte": {},
-            "gewicht": {},
-            "bloeddruk": {},
-            "hba1c": {}
+            "lengte": {
+                "datum_van_bepaling": "Wed May 08 2013 00:00:00 GMT+0200 (CEST)",
+                "lengte_cm": 120
+            },
+            "gewicht": {
+                "datum_van_bepaling": "Wed May 08 2013 00:00:00 GMT+0200 (CEST)",
+                "gewicht_kg": 50
+            },
+            "bloeddruk": {
+                "datum_van_bepaling": "Wed May 08 2013 00:00:00 GMT+0200 (CEST)",
+                "systolische_bloeddruk_mmhg": 120,
+                "diastolische_bloeddruk_mmhg": 100
+            },
+            "hba1c": {
+                "datum_van_bepaling": "Wed May 08 2013 00:00:00 GMT+0200 (CEST)",
+                "hba1c_": 20,
+                "aantal_bepalingen_van_hba1c_in_het_voorbije_kalenderjaar": 4
+            },
+            "gemiddeld_aantal_glycemiemetingen_per_dag": 4,
+            "aantal_opnames_voor_ernstige_diabetische_ketoacidose_tijdens_de_12_maanden_die_de_laatste_consultatie_voorafgingen": 3,
+            "aantal_gekende_episodes_van_hypoglycemie_tijdens_de_3_maanden_die_de_laatste_consultatie_voorafgingen": 2,
+            "aantal_consultaties_in_het_diabetescentrum_tijdens_het_afgelopen_kalenderjaar": 1
         },
         "screenings": {
             "coeliakie": {
