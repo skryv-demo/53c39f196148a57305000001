@@ -1,1 +1,92 @@
-{}
+{
+    "algemeen": {
+        "creatiedatum_van_klinische_file": "Mon Jul 14 2014 00:00:00 GMT+0200 (CEST)",
+        "jaar_van_datacollectie": 2013
+    },
+    "patientgegevens": {
+        "geslacht": {
+            "selectedChoice": "Man"
+        },
+        "overlijden": {
+            "selectedChoices": {
+                "Overleden?": true
+            },
+            "jaar_van_overlijden": "Tue Jan 01 2013 01:00:00 GMT+0100 (CET)"
+        },
+        "etniciteit_vader": {
+            "selectedChoice": "Andere",
+            "indien_andere,_specificeren": "Aziatisch"
+        },
+        "etniciteit_moeder": {
+            "selectedChoice": "Andere",
+            "indien_andere,_specificeren": "Aziatisch"
+        },
+        "geboortedatum": "Tue Oct 12 1999 00:00:00 GMT+0200 (CEST)",
+        "datum_van_de_eerste_insulinetoediening": "Tue May 05 2009 00:00:00 GMT+0200 (CEST)",
+        "patient_niss": 99101220122,
+        "naam": "Doe",
+        "voornaam": "Johnny",
+        "arrondissement": 1000
+    },
+    "datacollectie": {
+        "algemeen": {
+            "taalproblemen": {
+                "selectedChoices": {
+                    "Zijn er taalproblemen die de communicatie bemoeilijken?": true
+                },
+                "zo_ja,_met_het_kind": false,
+                "zo_ja,_met_de_ouders": true
+            },
+            "puberteitprepuberteit": {
+                "selectedChoice": "Puberteit"
+            },
+            "insulineschema": {
+                "selectedChoice": "Individueel samengestelde mengsels toegediend 's morgens en 's avonds met occasioneel een extra toediening van snelle/ultrasnelle insuline"
+            },
+            "datum_van_de_meest_recente_consultatie": "Wed Nov 13 2013 00:00:00 GMT+0100 (CET)",
+            "de_patient_was_gedurende_het_ganse_kalenderjaar_in_behandeling_bij_dit_centrum": true,
+            "kerngezin": true,
+            "andere_medicatie": "Lektamindose"
+        },
+        "metingen": {
+            "0": [
+                {
+                    "insulinedosis_iedag": 100
+                },
+                {
+                    "insulinedosis_iedag": 100
+                }
+            ],
+            "lengte": {},
+            "gewicht": {},
+            "bloeddruk": {},
+            "hba1c": {}
+        },
+        "screenings": {
+            "coeliakie": {
+                "selectedChoices": {}
+            },
+            "schildklierimmuniteit": {
+                "selectedChoices": {}
+            },
+            "hypo_of_hyperthyreoidie": {
+                "selectedChoices": {}
+            },
+            "epilepsie": {
+                "selectedChoices": {}
+            },
+            "retinopathie": {
+                "selectedChoices": {}
+            },
+            "nefropathie": {
+                "selectedChoices": {}
+            },
+            "bloedlipiden": {
+                "selectedChoices": {}
+            },
+            "neuropathie": {
+                "selectedChoices": {}
+            }
+        }
+    }
+}
